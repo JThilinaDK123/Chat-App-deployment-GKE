@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: cc-cluster
   GKE_ZONE: asia-south1-a
   DEPLOYMENT_NAME: deployment-nodeapp-development
-  IMAGE: github-actions-gke-image
+  IMAGE: github-actions-gke-image-development
   TAG: 1.0.0
 
 jobs:
