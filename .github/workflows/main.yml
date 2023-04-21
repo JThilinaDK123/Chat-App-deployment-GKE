@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
   GKE_CLUSTER: cc-cluster
   GKE_ZONE: asia-south1-a
-  DEPLOYMENT_NAME: deployment-nodeapp-development
+  DEPLOYMENT_NAME: deployment-nodeapp-devolopment
   IMAGE: devolopment-image
   TAG: 1.0.0
 
