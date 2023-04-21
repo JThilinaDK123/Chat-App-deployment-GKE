@@ -18,9 +18,3 @@ spec:
       - name: nodeserver
         image: gcr.io/PROJECT_ID/IMAGE:TAG
         imagePullPolicy: Always
-        env:
-          - name: OPENAI_API_KEY
-            valueFrom:
-              secretKeyRef:
-                name: api-uri
-                key: OPENAI_API_KEY
