@@ -12,7 +12,7 @@ const app = express();
 const Configuration = require('openai').Configuration;
 const OpenAIApi = require('openai').OpenAIApi;
 const configuration = new Configuration({
-    organization: process.env.OPENAI_ORG_ID,
+    // organization: process.env.OPENAI_ORG_ID,
     apiKey: process.env.OPENAI_API_KEY
     // headers: { 'Authorization': 'Bearer ' + process.env.OPENAI_API_KEY }
 });
