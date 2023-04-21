@@ -2,15 +2,15 @@ name: Publish Docker image
 
 on:
   push:
-    branches: ['devolopment']
+    branches: ['main']
 
 
 env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
   GKE_CLUSTER: cc-cluster
   GKE_ZONE: asia-south1-a
-  DEPLOYMENT_NAME: deployment-nodeapp-development
-  IMAGE: github-actions-gke-image-development
+  DEPLOYMENT_NAME: deployment-nodeapp-production
+  IMAGE: github-actions-gke-image-production
   TAG: 1.0.0
 
 jobs:
